@@ -9,6 +9,8 @@ Read these folders in this order:
 
 Do not treat `BUILD-PLAN_ARCHIVE_NON_FOUNDATION/` as mandatory base-foundation scope unless explicitly asked to promote something from it.
 
+If the source arrives as a zip or other archive, use the `archive-intake` skill first so the archive is preserved, unpacked into a stable folder, and then routed into the normal foundation intake flow.
+
 ### What `BUILD-PLAN/` means
 
 `BUILD-PLAN/` defines what "comprehensive" means for implementation depth.

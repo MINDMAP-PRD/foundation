@@ -159,6 +159,25 @@ Hands off to:
 - `foundation-module-factory` when there is no governed package yet
 - `foundation-extension-auditor` when ownership against the foundations must be checked first
 
+### `archive-intake`
+
+Role:
+
+- handles `.zip` and other archive-based handoffs
+- preserves the original archive, extracts it into a stable folder, and identifies the correct intake root
+- transitions archive-based sources into the normal foundation/package workflow
+
+Use first when:
+
+- the user provides a zip/archive as the source material
+- the project cannot be read until it is unpacked
+
+Hands off to:
+
+- `foundation-module-factory` after extraction for governed package intake
+- `foundation-extension-auditor` after extraction for ownership/audit work
+- any other specialist skill only after the archive contents are actually readable
+
 ### `deep-audit`
 
 Role:
