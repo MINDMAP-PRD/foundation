@@ -1,5 +1,7 @@
 # Comprehensive Roles, Capabilities & RBAC System Flow
 
+> **Foundation wiring note:** Treat this file as complementary shared RBAC/capability guidance for `GeneralApp`. Merge its depth into the canonical foundation registries, APIs, inspection tools, and owner-control surfaces instead of rebuilding parallel policy systems.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Admin User Management Interface](#admin-user-management-interface)

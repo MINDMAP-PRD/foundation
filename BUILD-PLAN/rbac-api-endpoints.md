@@ -1,5 +1,7 @@
 # RBAC System - Complete API Architecture
 
+> **Foundation wiring note:** These APIs should be implemented as shared `GeneralApp` contracts and consumed through foundation SDK/services. Do not fork them per module.
+
 ## API Endpoints Overview
 
 This document provides complete REST API endpoints for the RBAC (Role-Based Access Control) system including user management, communication, roles, capabilities, and audit features.

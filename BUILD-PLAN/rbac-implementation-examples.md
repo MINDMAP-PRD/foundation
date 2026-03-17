@@ -1,5 +1,7 @@
 # RBAC System - Complete Implementation Examples
 
+> **Foundation wiring note:** These examples should be adapted into shared `GeneralApp` packages, APIs, and admin surfaces. Do not leave them as isolated product-specific snippets.
+
 This document provides production-ready implementation examples for the RBAC system including React/Next.js components, backend API routes, hooks, utilities, and integration patterns.
 
 ---

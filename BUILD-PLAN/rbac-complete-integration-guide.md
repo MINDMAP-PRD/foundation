@@ -1,5 +1,7 @@
 # RBAC System - Complete Integration Guide
 
+> **Foundation wiring note:** Treat this as shared integration guidance for the foundation RBAC/capability layer. Use it with the canonical foundation docs and skills rather than as a standalone module policy system.
+
 ## Overview
 
 This guide provides a complete roadmap for integrating the RBAC (Role-Based Access Control) system into your Next.js application. It ties together all the documentation files and provides step-by-step implementation instructions.

@@ -1,5 +1,7 @@
 # Comprehensive Settings Management System Configuration Flow
 
+> **Foundation wiring note:** This file feeds the shared settings hierarchy in `GeneralApp`. Settings must be authoritative and runtime-driving, not decorative forms, and must connect to owner UI, persistence, resolution, and enforcement.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Universal Settings Configuration Pattern](#universal-settings-configuration-pattern)

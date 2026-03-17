@@ -1,5 +1,7 @@
 # Comprehensive Notification System Configuration Flow
 
+> **Foundation wiring note:** This file belongs to the shared notification foundation. Templates, channels, rules, user preferences, admin controls, and provider dispatch should resolve through shared platform services.
+
 ## Table of Contents
 
 1. [System Overview](#1-system-overview)

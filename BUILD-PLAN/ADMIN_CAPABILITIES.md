@@ -1,5 +1,7 @@
 # BlueprintForge Admin Capabilities
 
+> **Foundation wiring note:** Treat this file as comprehensive `GeneralApp` admin capability input. Its controls should resolve through shared foundation registries, settings, owner-config surfaces, and RBAC/capability enforcement rather than module-local hardcoding.
+
 ## Overview
 This document outlines all the administrative capabilities available in the BlueprintForge application.
 

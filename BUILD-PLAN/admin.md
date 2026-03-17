@@ -1,5 +1,7 @@
 # ENTERPRISE ADMIN SYSTEM BUILDER - COMPREHENSIVE SPECIFICATION
 
+> **Foundation wiring note:** Treat this as shared `GeneralApp` admin-shell guidance, not a standalone product spec. Apply it together with the canonical foundation docs and the foundation skills (`foundation-extension-auditor`, `foundation-module-factory`).
+
 ## 🎯 PRE-BUILD ANALYSIS PHASE
 
 **Before writing a single line of code, the AI must:**

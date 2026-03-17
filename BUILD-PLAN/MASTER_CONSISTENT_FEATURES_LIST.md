@@ -1,5 +1,7 @@
 # MASTER LIST: CONSISTENT FEATURES ACROSS ALL APPLICATIONS
 
+> **Foundation wiring note:** Use this file as a universal reference list, but promote only the shared-platform parts into `GeneralApp` and `FormBuilder` according to `foundations/BUILD_PLAN_EXTRACTS/BUILD_PLAN_FOUNDATION_PROMOTION_MAP.md`.
+
 > **CORE PRINCIPLE**: Everything is pluggable, provider-agnostic, owner-configurable-by-default, admin-configurable, RBAC-gated, scope-hierarchical, and comprehensively documented with every possible scenario.
 
 ---

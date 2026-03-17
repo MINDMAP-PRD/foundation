@@ -7,6 +7,8 @@ Read these folders in this order:
 3. `BUILD-PLAN/`
 4. `MODULE/`
 
+Do not treat `BUILD-PLAN_ARCHIVE_NON_FOUNDATION/` as mandatory base-foundation scope unless explicitly asked to promote something from it.
+
 ### What `BUILD-PLAN/` means
 
 `BUILD-PLAN/` defines what "comprehensive" means for implementation depth.

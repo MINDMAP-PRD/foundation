@@ -1,5 +1,7 @@
 # Comprehensive Error Logs System Configuration Flow
 
+> **Foundation wiring note:** Treat this as shared platform observability guidance for `GeneralApp` and its admin shell. Error logs, incidents, alerts, and auditability should be implemented as shared foundation services and operator surfaces.
+
 ## Table of Contents
 
 1. [System Overview](#1-system-overview)

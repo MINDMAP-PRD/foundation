@@ -1,5 +1,7 @@
 # RBAC Implementation - Part 2: Database, API & Code Examples
 
+> **Foundation wiring note:** Treat this as shared persistence/API guidance for the foundation authorization layer and align it with the canonical capability, interface, and settings registries.
+
 ## Database Schema
 
 ### Complete RBAC Database Schema

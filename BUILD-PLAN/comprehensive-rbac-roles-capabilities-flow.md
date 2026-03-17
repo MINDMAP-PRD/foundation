@@ -1,5 +1,7 @@
 # Comprehensive RBAC, Roles & Capabilities System Configuration Flow
 
+> **Foundation wiring note:** This is canonical shared authorization input for `GeneralApp`. Roles, capabilities, visibility, element state, and policy inspection must be foundation-owned and wired into both runtime enforcement and owner/admin UIs.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Universal RBAC Configuration Pattern](#universal-rbac-configuration-pattern)

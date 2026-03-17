@@ -1,5 +1,7 @@
 # Comprehensive User Management System Configuration Flow
 
+> **Foundation wiring note:** Treat this as shared identity administration guidance for `GeneralApp`. User lifecycle, admin actions, security actions, scoped access, and auditability belong in the shared foundation, not in product modules.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Universal User Configuration Pattern](#universal-user-configuration-pattern)

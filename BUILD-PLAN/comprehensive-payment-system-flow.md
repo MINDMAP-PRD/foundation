@@ -1,5 +1,7 @@
 # Comprehensive Payment System Configuration Flow
 
+> **Foundation wiring note:** Treat this as shared billing/payment guidance for `GeneralApp`. Providers must stay behind swappable payment capabilities, with owner/admin control and auditability built into the platform layer.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Universal Payment Configuration Pattern](#universal-payment-configuration-pattern)

@@ -1,5 +1,7 @@
 # OWNER CONTROL CONTRACT
 
+> **Foundation wiring note:** This contract is now a default `GeneralApp` rule. Any retained `BUILD-PLAN` file that defines configurable behavior must satisfy this owner-control traceability model.
+
 This document defines the non-negotiable default for comprehensive builds.
 
 ## Core rule

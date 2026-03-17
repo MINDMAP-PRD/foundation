@@ -1,5 +1,7 @@
 
 # Comprehensive Element Configuration Flow
+
+> **Foundation wiring note:** This file feeds the shared owner-configurable UI model in `GeneralApp`. Every meaningful element must trace through foundation-owned config, persistence, and runtime enforcement rather than decorative settings.
 ## Universal Pattern for Admin Configuration & RBAC Management
 
 ---

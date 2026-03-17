@@ -1,5 +1,7 @@
 # Comprehensive MCP & Integrations System Configuration Flow
 
+> **Foundation wiring note:** Treat this as shared capability/integration guidance for `GeneralApp`. Provider choices must stay behind foundation adapters and capability bindings rather than leaking into module contracts.
+
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Universal Integration Configuration Pattern](#universal-integration-configuration-pattern)
