@@ -22,10 +22,13 @@ Do not interpret comprehensive as:
 Interpret comprehensive as:
 
 - full capability coverage for the documented surface
+- owner-configurable-by-default UI and behavior for any meaningful platform element
 - use of mature library/framework features where they already solve the problem well
 - complete management flows, not isolated screens
 - real policy, audit, settings, roles, notifications, and integration handling where the build plan requires them
 - rich admin and operator tooling when the build plan defines them
+
+Read `BUILD-PLAN/OWNER_CONTROL_CONTRACT.md` before building any configurable UI, branding, settings, role, capability, or admin surface.
 
 ### Library usage rule
 
@@ -42,6 +45,7 @@ Do:
 - use the full practical feature set of the chosen library/framework where the docs call for it
 - keep vendors/frameworks behind adapters or capability boundaries when they are platform-level concerns
 - keep module-local framework choices inside module boundaries unless explicitly promoted to the foundation
+- make owner-facing settings authoritative: changing a setting must change runtime behavior, not just update a form
 
 ### Build behavior
 

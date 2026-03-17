@@ -1,6 +1,6 @@
 # MASTER LIST: CONSISTENT FEATURES ACROSS ALL APPLICATIONS
 
-> **CORE PRINCIPLE**: Everything is pluggable, provider-agnostic, admin-configurable, RBAC-gated, scope-hierarchical, and comprehensively documented with every possible scenario.
+> **CORE PRINCIPLE**: Everything is pluggable, provider-agnostic, owner-configurable-by-default, admin-configurable, RBAC-gated, scope-hierarchical, and comprehensively documented with every possible scenario.
 
 ---
 
@@ -888,4 +888,3 @@ interface [Feature]Configuration {
   ...
 }
 ```
-
