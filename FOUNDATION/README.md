@@ -16,6 +16,7 @@ This folder contains the canonical operating model for the shared foundations:
 - `FOUNDATION_LIBRARY_ARCHITECTURE.md` = library/plugin architecture model
 - `FOUNDATION_IMPLEMENTATION_BLUEPRINT.md` = practical repo layout for where the real foundation and module code should be built
 - `FOUNDATION_DEPENDENCY_STRATEGY.md` = recommended libraries, services, and adapter rules for building fast without hardwiring vendors into the foundation
+- `BUILD_PLAN_EXTRACTS/` = extracted foundation-owned guidance from the broader `BUILD-PLAN/` corpus, including what should be promoted into `GeneralApp` and how the comprehensive pieces interconnect
 - `MODULE_MANIFEST_SPEC.md` = module registration contract
 - `CAPABILITY_REGISTRY_SPEC.md` = canonical shared capability names
 - `INTERFACE_REGISTRY_SPEC.md` = canonical shared interface contracts and version lines
@@ -205,10 +206,12 @@ Before building or auditing a module, read in this order:
 8. `INTERFACE_REGISTRY_SPEC.md`
 9. `EXTENSION_TABLE_REGISTRY_SPEC.md`
 10. `FOUNDATION_CHANGE_POLICY.md`
-11. `GeneralApp_Build_Documentation.md`
-12. `FormBuilder_Build_Documentation_v6.md` only when the module uses or proposes reusable form-engine capability
-13. `../skills/foundation-extension-auditor/SKILL.md` before ownership audits or promotion decisions
-14. `../skills/foundation-module-factory/SKILL.md` when turning an idea or early spec into a governed build package
+11. `BUILD_PLAN_EXTRACTS/BUILD_PLAN_FOUNDATION_PROMOTION_MAP.md` when mapping broader comprehensive plans into the shared foundations
+12. `BUILD_PLAN_EXTRACTS/FOUNDATION_COMPREHENSIVE_WIRING_PLAN.md` when building owner/admin comprehensive wiring into `GeneralApp`
+13. `GeneralApp_Build_Documentation.md`
+14. `FormBuilder_Build_Documentation_v6.md` only when the module uses or proposes reusable form-engine capability
+15. `../skills/foundation-extension-auditor/SKILL.md` before ownership audits or promotion decisions
+16. `../skills/foundation-module-factory/SKILL.md` when turning an idea or early spec into a governed build package
 
 ---
 
